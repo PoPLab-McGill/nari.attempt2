@@ -1,5 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.qualtrics.extension@main/nari.extension.js
-'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.attempt2@main/nari.extension.js'], function(APIConstructor, stiatExtension){
 
     var API = new APIConstructor();
 	var global = API.getGlobal();
@@ -20,7 +19,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/PoPLab-McGill/nari.qualtrics.exte
 					height : 7 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-    		    {image : 'black1.jpg'}, 
+    		    	{word : 'black1.jpg'}, 
     			{word : 'black2.jpg'}, 
     			{image : 'black3.jpg'}, 
     			{image : 'black4.jpg'}, 
